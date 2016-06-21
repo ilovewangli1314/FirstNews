@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		398B2AB380B54D8B3EE890FC /* libPods-FirstNewsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 197C33C0BE14CEA6FCE2B21C /* libPods-FirstNewsUITests.a */; };
 		7C58E1941D1914A500CE3B34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C58E1931D1914A500CE3B34 /* main.m */; };
 		7C58E1971D1914A500CE3B34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C58E1961D1914A500CE3B34 /* AppDelegate.m */; };
 		7C58E19A1D1914A500CE3B34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C58E1991D1914A500CE3B34 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		7C58E1A51D1914A500CE3B34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C58E1A31D1914A500CE3B34 /* LaunchScreen.storyboard */; };
 		7C58E1B01D1914A500CE3B34 /* FirstNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C58E1AF1D1914A500CE3B34 /* FirstNewsTests.m */; };
 		7C58E1BB1D1914A500CE3B34 /* FirstNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C58E1BA1D1914A500CE3B34 /* FirstNewsUITests.m */; };
+		AB60925C83D3FDBA1853D67F /* libPods-FirstNewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 759CDA879C15F4B2C5387C23 /* libPods-FirstNewsTests.a */; };
+		B03D80B5960993C77C076340 /* libPods-FirstNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E22674C2B26F977A4CB63317 /* libPods-FirstNews.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04309B99EEB7A7AB5CD1E05D /* Pods-FirstNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstNewsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstNewsUITests/Pods-FirstNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		197C33C0BE14CEA6FCE2B21C /* libPods-FirstNewsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstNewsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F01F9F4A9046D0D19FE3E30 /* Pods-FirstNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstNewsTests/Pods-FirstNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		45118714F96D5B9E1D212011 /* Pods-FirstNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstNewsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstNewsUITests/Pods-FirstNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A736918652F682AA4803E71 /* Pods-FirstNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstNewsTests/Pods-FirstNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		737BFBE501E3302BEB8B6737 /* Pods-FirstNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstNews/Pods-FirstNews.debug.xcconfig"; sourceTree = "<group>"; };
+		759CDA879C15F4B2C5387C23 /* libPods-FirstNewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstNewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C58E18F1D1914A500CE3B34 /* FirstNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C58E1931D1914A500CE3B34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C58E1951D1914A500CE3B34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +63,8 @@
 		7C58E1B61D1914A500CE3B34 /* FirstNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C58E1BA1D1914A500CE3B34 /* FirstNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstNewsUITests.m; sourceTree = "<group>"; };
 		7C58E1BC1D1914A500CE3B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22674C2B26F977A4CB63317 /* libPods-FirstNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46DC76B9F5998DBFB740ADA /* Pods-FirstNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstNews/Pods-FirstNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03D80B5960993C77C076340 /* libPods-FirstNews.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB60925C83D3FDBA1853D67F /* libPods-FirstNewsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398B2AB380B54D8B3EE890FC /* libPods-FirstNewsUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		272473C39F413F27AB2276BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				737BFBE501E3302BEB8B6737 /* Pods-FirstNews.debug.xcconfig */,
+				E46DC76B9F5998DBFB740ADA /* Pods-FirstNews.release.xcconfig */,
+				4A736918652F682AA4803E71 /* Pods-FirstNewsTests.debug.xcconfig */,
+				2F01F9F4A9046D0D19FE3E30 /* Pods-FirstNewsTests.release.xcconfig */,
+				04309B99EEB7A7AB5CD1E05D /* Pods-FirstNewsUITests.debug.xcconfig */,
+				45118714F96D5B9E1D212011 /* Pods-FirstNewsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7C58E1861D1914A500CE3B34 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +115,8 @@
 				7C58E1AE1D1914A500CE3B34 /* FirstNewsTests */,
 				7C58E1B91D1914A500CE3B34 /* FirstNewsUITests */,
 				7C58E1901D1914A500CE3B34 /* Products */,
+				272473C39F413F27AB2276BE /* Pods */,
+				C5BDA84FB7CFDF702987E574 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +173,16 @@
 			path = FirstNewsUITests;
 			sourceTree = "<group>";
 		};
+		C5BDA84FB7CFDF702987E574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E22674C2B26F977A4CB63317 /* libPods-FirstNews.a */,
+				759CDA879C15F4B2C5387C23 /* libPods-FirstNewsTests.a */,
+				197C33C0BE14CEA6FCE2B21C /* libPods-FirstNewsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C58E1BF1D1914A500CE3B34 /* Build configuration list for PBXNativeTarget "FirstNews" */;
 			buildPhases = (
+				BA981631A215A13748C5D3E5 /* [CP] Check Pods Manifest.lock */,
 				7C58E18B1D1914A500CE3B34 /* Sources */,
 				7C58E18C1D1914A500CE3B34 /* Frameworks */,
 				7C58E18D1D1914A500CE3B34 /* Resources */,
+				63B51C76D72228B363C0FA91 /* [CP] Embed Pods Frameworks */,
+				8D3766B8BC870EFCE634E9F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C58E1C21D1914A500CE3B34 /* Build configuration list for PBXNativeTarget "FirstNewsTests" */;
 			buildPhases = (
+				FD57152FA0218E7B376FD350 /* [CP] Check Pods Manifest.lock */,
 				7C58E1A71D1914A500CE3B34 /* Sources */,
 				7C58E1A81D1914A500CE3B34 /* Frameworks */,
 				7C58E1A91D1914A500CE3B34 /* Resources */,
+				7B9F2147C57489960A6C3754 /* [CP] Embed Pods Frameworks */,
+				2A06ECF545D52E79BBC090AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C58E1C51D1914A500CE3B34 /* Build configuration list for PBXNativeTarget "FirstNewsUITests" */;
 			buildPhases = (
+				3D0E8CDA88713C1B51679FF9 /* [CP] Check Pods Manifest.lock */,
 				7C58E1B21D1914A500CE3B34 /* Sources */,
 				7C58E1B31D1914A500CE3B34 /* Frameworks */,
 				7C58E1B41D1914A500CE3B34 /* Resources */,
+				4FE5E5FF756A2A45E84EFF10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +315,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A06ECF545D52E79BBC090AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstNewsTests/Pods-FirstNewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D0E8CDA88713C1B51679FF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FE5E5FF756A2A45E84EFF10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstNewsUITests/Pods-FirstNewsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B51C76D72228B363C0FA91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstNews/Pods-FirstNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9F2147C57489960A6C3754 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstNewsTests/Pods-FirstNewsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D3766B8BC870EFCE634E9F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstNews/Pods-FirstNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA981631A215A13748C5D3E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD57152FA0218E7B376FD350 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C58E18B1D1914A500CE3B34 /* Sources */ = {
@@ -417,6 +588,7 @@
 		};
 		7C58E1C01D1914A500CE3B34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737BFBE501E3302BEB8B6737 /* Pods-FirstNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirstNews/Info.plist;
@@ -428,6 +600,7 @@
 		};
 		7C58E1C11D1914A500CE3B34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46DC76B9F5998DBFB740ADA /* Pods-FirstNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirstNews/Info.plist;
@@ -439,6 +612,7 @@
 		};
 		7C58E1C31D1914A500CE3B34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A736918652F682AA4803E71 /* Pods-FirstNewsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FirstNewsTests/Info.plist;
@@ -451,6 +625,7 @@
 		};
 		7C58E1C41D1914A500CE3B34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F01F9F4A9046D0D19FE3E30 /* Pods-FirstNewsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FirstNewsTests/Info.plist;
@@ -463,6 +638,7 @@
 		};
 		7C58E1C61D1914A500CE3B34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04309B99EEB7A7AB5CD1E05D /* Pods-FirstNewsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FirstNewsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -474,6 +650,7 @@
 		};
 		7C58E1C71D1914A500CE3B34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45118714F96D5B9E1D212011 /* Pods-FirstNewsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FirstNewsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -502,6 +679,7 @@
 				7C58E1C11D1914A500CE3B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C58E1C21D1914A500CE3B34 /* Build configuration list for PBXNativeTarget "FirstNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +688,7 @@
 				7C58E1C41D1914A500CE3B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C58E1C51D1914A500CE3B34 /* Build configuration list for PBXNativeTarget "FirstNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +697,7 @@
 				7C58E1C71D1914A500CE3B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
