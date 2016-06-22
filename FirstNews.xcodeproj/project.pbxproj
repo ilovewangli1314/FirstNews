@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		398B2AB380B54D8B3EE890FC /* libPods-FirstNewsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 197C33C0BE14CEA6FCE2B21C /* libPods-FirstNewsUITests.a */; };
+		7C1FD4571D1A523600F3A977 /* AMLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1FD4561D1A523600F3A977 /* AMLocalizedString.m */; };
+		7C1FD4581D1A52FC00F3A977 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C1FD45A1D1A52FC00F3A977 /* Localizable.strings */; };
 		7C58E1941D1914A500CE3B34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C58E1931D1914A500CE3B34 /* main.m */; };
 		7C58E1971D1914A500CE3B34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C58E1961D1914A500CE3B34 /* AppDelegate.m */; };
 		7C58E19A1D1914A500CE3B34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C58E1991D1914A500CE3B34 /* ViewController.m */; };
@@ -46,6 +48,11 @@
 		4A736918652F682AA4803E71 /* Pods-FirstNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstNewsTests/Pods-FirstNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		737BFBE501E3302BEB8B6737 /* Pods-FirstNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstNews/Pods-FirstNews.debug.xcconfig"; sourceTree = "<group>"; };
 		759CDA879C15F4B2C5387C23 /* libPods-FirstNewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstNewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1FD4551D1A523600F3A977 /* AMLocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMLocalizedString.h; sourceTree = SOURCE_ROOT; };
+		7C1FD4561D1A523600F3A977 /* AMLocalizedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMLocalizedString.m; sourceTree = SOURCE_ROOT; };
+		7C1FD4591D1A52FC00F3A977 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C1FD45D1D1A544E00F3A977 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7C1FD45E1D1A545D00F3A977 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		7C58E18F1D1914A500CE3B34 /* FirstNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C58E1931D1914A500CE3B34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C58E1951D1914A500CE3B34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,6 +140,8 @@
 		7C58E1911D1914A500CE3B34 /* FirstNews */ = {
 			isa = PBXGroup;
 			children = (
+				7C1FD4551D1A523600F3A977 /* AMLocalizedString.h */,
+				7C1FD4561D1A523600F3A977 /* AMLocalizedString.m */,
 				7C58E1951D1914A500CE3B34 /* AppDelegate.h */,
 				7C58E1961D1914A500CE3B34 /* AppDelegate.m */,
 				7C58E1981D1914A500CE3B34 /* ViewController.h */,
@@ -150,6 +159,7 @@
 		7C58E1921D1914A500CE3B34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7C1FD45A1D1A52FC00F3A977 /* Localizable.strings */,
 				7C58E1931D1914A500CE3B34 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -276,6 +286,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 7C58E1861D1914A500CE3B34;
 			productRefGroup = 7C58E1901D1914A500CE3B34 /* Products */;
@@ -295,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C58E1A51D1914A500CE3B34 /* LaunchScreen.storyboard in Resources */,
+				7C1FD4581D1A52FC00F3A977 /* Localizable.strings in Resources */,
 				7C58E1A21D1914A500CE3B34 /* Assets.xcassets in Resources */,
 				7C58E19D1D1914A500CE3B34 /* Main.storyboard in Resources */,
 			);
@@ -448,6 +461,7 @@
 				7C58E1971D1914A500CE3B34 /* AppDelegate.m in Sources */,
 				7C58E1941D1914A500CE3B34 /* main.m in Sources */,
 				7C58E1A01D1914A500CE3B34 /* FirstNews.xcdatamodeld in Sources */,
+				7C1FD4571D1A523600F3A977 /* AMLocalizedString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +497,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7C1FD45A1D1A52FC00F3A977 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C1FD4591D1A52FC00F3A977 /* en */,
+				7C1FD45D1D1A544E00F3A977 /* zh-Hans */,
+				7C1FD45E1D1A545D00F3A977 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		7C58E19B1D1914A500CE3B34 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
